@@ -52,7 +52,7 @@ inputs:
   # See: https://github.com/graalvm/setup-graalvm/blob/main/action.yml
   #
   graalvm-version:
-    default: '22.3.1' # github-releases: graalvm/graalvm-ce-builds - GraalVM
+    default: '22.3.3' # github-releases: graalvm/graalvm-ce-builds - GraalVM
     description: 'GraalVM version (release, latest, dev).'
     required: false
   graalvm-components:
