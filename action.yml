@@ -191,7 +191,7 @@ runs:
           )
         }}"
     - name: Cache Java tooling
-      uses: actions/cache@v3.3.1
+      uses: actions/cache@v4.1.2
       with:
         path: |
           ${{ steps.cache-vars.outputs.java-path }}
@@ -228,7 +228,7 @@ runs:
         github-token: ${{ inputs.github-token }}
 
     - name: Package cache
-      uses: actions/cache@v3.3.1
+      uses: actions/cache@v4.1.2
       with:
         path: |
           ~/.m2/repository
