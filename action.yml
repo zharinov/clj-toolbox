@@ -215,7 +215,7 @@ runs:
         github-token: ${{ inputs.github-token }}
 
     - name: Setup Clojure
-      uses: DeLaGuardo/setup-clojure@10.2
+      uses: DeLaGuardo/setup-clojure@10.3
       if: ${{ inputs.clojure-cli || inputs.leiningen || inputs.boot || inputs.babashka || inputs.clj-kondo || inputs.cljstyle || inputs.zprint }}
       with:
         cli: ${{ inputs.clojure-cli }}
